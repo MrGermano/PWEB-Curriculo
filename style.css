@@ -16,11 +16,11 @@ body {
 
 .container {
   display: flex;
-  background-color: #22d906;
   width: 620px;
   height: 877px;
   border-style: groove;
   border-color: black;
+  flex-wrap: wrap;
 }
 
 .topo {
@@ -29,7 +29,7 @@ body {
   width: 620px;
   height: 152px;
   align-items: center;
-  flex direction: row;
+  flex-direction: row;
   gap: 1rem;
 }
 
@@ -55,4 +55,51 @@ body {
   font-size: 0.7rem;
   font-style: normal;
   color: #979ba2;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #303846;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.baixo {
+  padding: 1rem;
+  display: flex;
+  width: 410px;
+  height: 693px;
+  flex-direction: column;
+
+}
+
+.curso {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.local {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #b5b5b5;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.perfil {
+  font-size: 0.9rem;
+  color: #1e1d1d;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.esquerdo {
+  padding: 1rem;
+  display: flex;
+  width: 146px;
+  height: 693px;
+  flex-direction: column;
+  background-color: #30384632;
 }
